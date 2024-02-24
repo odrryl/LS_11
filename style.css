@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.main {
+  text-align: center;
+}
+
+.header {
+}
+
+.container {
+  margin-inline: auto;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 56px;
+}
+
+.btn-group {
+  display: flex;
+}
+
+.btn {
+  padding: 8px 20px;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  width: 111px;
+}
+
+.sign_up-btn {
+  color: rgb(21, 105, 99);
+}
+
+.sign_in-btn {
+  color: rgb(255, 255, 255);
+  background: rgb(21, 105, 99);
+}
+
+.sign_in-btn:hover {
+  background: rgb(95, 152, 148);
+}
+
+.main__container {
+  text-align: center;
+  padding-top: 157px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 323px;
+}
+
+.main__title {
+  color: rgb(21, 105, 99);
+  font-size: 68px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.main__desc {
+  color: rgb(44, 21, 0);
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 493px;
+  width: 100%;
+}
+
+.advantages {
+}
+
+.advantages__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 32px;
+  grid-row-gap: 0px;
+  max-width: 1168px;
+  justify-items: center;
+  margin-bottom: 80px;
+}
+
+.advantages__block {
+  box-sizing: border-box;
+  border: 1px solid rgb(224, 224, 224);
+  background: rgb(255, 255, 255);
+  max-width: 268px;
+  width: 100%;
+  padding: 22px 16px;
+}
+
+.advantages__header {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.advantages__title {
+  color: rgb(21, 105, 99);
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.advantages__desc {
+  max-width: 236px;
+  width: 100%;
+
+  color: rgb(44, 21, 0);
+  font-size: 10px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.products {
+}
+
+.products__container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  justify-items: center;
+  max-width: 1168px;
+  margin-bottom: 80px;
+}
+
+.products__title {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.products__separator {
+  /* Gray 5 */
+  border: 1px solid rgb(224, 224, 224);
+  width: 1168px;
+  margin-inline: auto;
+  margin-bottom: 31px;
+}
+
+.products__block {
+  text-align: center;
+}
+
+.products__desc {
+}
+
+.products__name {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.products__price {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.shopnow {
+  background-color: rgb(243, 244, 246);
+  max-width: 1168px;
+  margin-inline: auto;
+}
+
+.shopnow__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 61px;
+}
+
+.shopnow__group {
+  margin-left: 97px;
+}
+
+.shopnow__title {
+  color: rgb(44, 21, 0);
+  font-size: 40px;
+  font-weight: 700;
+  max-width: 585px;
+  margin-bottom: 32px;
+}
+
+.shop-btn {
+  color: rgb(250, 254, 254);
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 700;
+
+  padding: 10px 45px;
+  box-sizing: border-box;
+  background: rgb(21, 105, 99);
+  text-align: center;
+}
+
+.shop-btn:hover {
+  background: rgb(95, 152, 148);
+}
